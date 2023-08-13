@@ -1,5 +1,5 @@
 import React from 'react'
-import logoimage from "./assets/newlogonobg5.png"
+import logoimage from "./assets/newlogodark2.png"
 
 const App = () => {
   return (
@@ -8,6 +8,8 @@ const App = () => {
       <nav>
         <div className="logo">
           <img src={logoimage} alt="" />
+          <h3>WISEDOME</h3>
+          <p>BE WISE WITH WONDERS</p>
         </div>
         <div className="navitems">
           <ul>
