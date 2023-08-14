@@ -1,0 +1,61 @@
+.post_container :nth-child(2n + 1) {
+    flex-direction: row-reverse;
+  }
+    
+
+.post_main{
+    display: flex;
+    gap:100px;
+    padding: 60px;
+    padding-left: 10px;
+
+}
+
+.image_div{
+   
+    box-shadow: 20px 20px #b9e7e7;
+
+    padding: 0;
+    height: 380px;
+    width: 380px;
+}
+.image_div img{
+    height: 380px;
+    width: 380px;
+}
+
+.text_div{
+   padding: 10px;
+}
+.text_title{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-family: Ubuntu;
+}
+
+.text_desc{
+    font-size: 18px;
+    font-weight:400;
+    color:rgb(31, 28, 28);
+    font-family: Montserrat;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.text_div button{
+    border:1px solid lightseagreen;
+    height: 50px;
+    width: fit-content;
+    background-color:white;
+    color:lightseagreen;
+    font-weight: 500;
+    font-family: Ubuntu;
+    font-size: 18px;
+}
+.text_div button:hover{
+    background-color: lightseagreen;
+    color:white;
+    cursor: pointer;
+}

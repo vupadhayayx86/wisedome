@@ -1,34 +1,17 @@
-import React from 'react'
-import logoimage from "./assets/newlogodark2.png"
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
 
 const App = () => {
   return (
     <div className="container">
       <div className="content">
-      <nav>
-        <div className="logo">
-          <img src={logoimage} alt="" />
-          <h3>WISEDOME</h3>
-          <p>BE WISE WITH WONDERS</p>
-        </div>
-        <div className="navitems">
-          <ul>
-            <li>ART</li>
-            <li>SCIENCE</li>
-            <li>TECHNOLOGY</li>
-            <li>MUSIC</li>
-            <li>FOOD</li>
-            <li>CINEMA</li>
-            <li>LOGIN</li>
-            <li>WRITE</li>
-          </ul>
-        </div>
-      </nav>
+      <Navbar />
       <main>
-        main content
+        <Home/>
       </main>
       <footer>
-        footer
+        <Footer />
       </footer>
       </div>
     </div>
