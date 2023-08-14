@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className="logo">
           <img src={logoimage} alt="" />
           <h3>WISEDOME</h3>
-          <p>BE WISE WITH WONDERS</p>
+          <p>Be wise with wonders!</p>
         </div>
         <div className="navitems">
           <ul>

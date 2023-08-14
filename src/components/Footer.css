@@ -1,6 +1,37 @@
 .main_div{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
     
+    justify-content: space-between;
+    width: 100%;
+    padding:20px;
+    background-color: #d8f5f5;
+
+}
+
+.blog_text{
+    font-size: 44px;
+    font-family: Borel;
+    font-weight: 100;
+}
+
+.text_slogan{
+    
+    font-size: 20px;
+}
+
+.heading_text{
+   height: 50px;
+}
+
+.made_text{
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: Borel;
+}
+.made_text span{
+    font-size: 20px;
+    padding-top: 25px;
+    font-family: Borel;
+    color:red;
 }
