@@ -8,7 +8,7 @@ const Footer = () => {
           <div className='heading_text'>Wisedome</div>
           <div className='text_slogan'>Be Wise With Wonders!</div>
         </div>
-        <div className="made_text">Made with <span>&#10084;</span> & React JS</div>
+        <div className="made_text">Made with <span>&#10084;</span> & ReactJS</div>
     </div>
   )
 }
