@@ -1,8 +1,9 @@
 import logoimage from "../assets/newlogodark2.png"
+import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <nav>
+    <div className="navbar_main">
         <div className="logo">
           <img src={logoimage} alt="" />
           <h3>WISEDOME</h3>
@@ -12,7 +13,6 @@ const Navbar = () => {
           <ul>
             <li>ART</li>
             <li>SCIENCE</li>
-            <li>TECHNOLOGY</li>
             <li>MUSIC</li>
             <li>FOOD</li>
             <li>CINEMA</li>
@@ -20,7 +20,7 @@ const Navbar = () => {
             <li>WRITE</li>
           </ul>
         </div>
-      </nav>
+      </div>
   )
 }
 

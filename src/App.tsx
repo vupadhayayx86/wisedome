@@ -5,16 +5,17 @@ import Home from './pages/Home'
 const App = () => {
   return (
     <div className="container">
-      <div className="content">
+      <nav>
       <Navbar />
+      </nav>
       <main>
-        <Home/>
+       <Home />
       </main>
       <footer>
-        <Footer />
+        <Footer/>
       </footer>
-      </div>
     </div>
+   
   )
 }
 

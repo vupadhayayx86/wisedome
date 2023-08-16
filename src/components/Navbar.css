@@ -1,0 +1,173 @@
+/* nav{
+    width: 100%;
+}
+
+.logo{
+    margin-left: 15px;
+    margin-top: 5px;
+  }
+  .logo img{
+    width: 150px;
+  }
+  .logo p,h3{
+    margin: 0;
+    padding: 0;
+    height: 28px;
+    font-family: Borel;
+    text-align: center;
+  }
+  
+  .logo p{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  nav{
+    justify-content: space-between;
+  }
+  
+  .navitems{
+   
+    margin: 55px 80px 0px 40px;
+    
+  }
+  .navitems ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap:15px;
+    
+  }
+  
+  .navitems ul li{
+    font-weight: 800;
+    font-family: Scope One;
+    font-size: 20px;
+    color:rgb(41, 38, 38);
+  } */
+
+.navbar_main{
+   
+   display: flex;
+   justify-content: space-between;
+}
+.logo{
+    margin-top: 5px;
+    width: max-content;
+    margin-left: 50px;
+  }
+  .logo img{
+    width: 180px;
+  }
+  .logo p,h3{
+    margin: 0;
+    padding: 0;
+    height: 28px;
+    font-family: Borel;
+    text-align: center;
+  }
+  .logo p{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .navitems{
+   
+    margin-top: 65px;
+    
+  }
+  .navitems ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap:24px;
+    
+  }
+  
+  .navitems ul li{
+    font-weight: 800;
+    font-family: Scope One;
+    font-size: 24px;
+    color:rgb(41, 38, 38);
+  }
+
+  @media (max-width:1200px){
+    .logo{
+        margin-left: 20px;
+      }
+    .logo img{
+        width: 150px;
+      }
+      .logo p,h3{
+        margin: 0;
+        padding: 0;
+        height: 24px;
+        font-family: Borel;
+        text-align: center;
+      }
+      .logo p{
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .navitems{
+   
+        margin-top: 40px;
+        
+      }
+
+      .navitems ul{
+        padding: 0px;
+      }
+      
+      .navitems ul li{
+        font-weight: 800;
+        font-family: Scope One;
+        font-size: 20px;
+        color:rgb(41, 38, 38);
+      }
+  }
+
+  @media (max-width:1050px){
+    .logo{
+        margin-left: 0px;
+      }
+    .navbar_main{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .navitems{
+        margin:0px;
+        padding:0px;
+        
+    }
+  }
+
+
+  @media (max-width:900px){
+    .logo img{
+        width: 130px;
+      }
+      .logo p,h3{
+        margin: 0;
+        padding: 0;
+        height: 20px;
+        font-family: Borel;
+        text-align: center;
+      }
+      .logo p{
+        font-size: 10px;
+        font-weight: bold;
+      }
+
+      .navitems ul{
+        padding: 0px;
+        margin: 0px;
+        gap:10px;
+      }
+      
+      .navitems ul li{
+        font-weight: 600;
+        font-size: 16px;
+       
+      }
+  }
